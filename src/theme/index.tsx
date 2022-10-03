@@ -49,7 +49,7 @@ export function colors(darkMode: boolean): Colors {
 
     // backgrounds / greys
     bg1: darkMode ? '#212429' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
+    bg2: darkMode ? '#0D0BB1' : '#0D0BB1',
     bg3: darkMode ? '#40444F' : '#EDEEF2',
     bg4: darkMode ? '#565A69' : '#CED0D9',
     bg5: darkMode ? '#6C7284' : '#888D9B',
@@ -177,7 +177,7 @@ export const TYPE = {
 
 export const FixedGlobalStyle = createGlobalStyle`
 html, input, textarea, button {
-  font-family: 'Inter', sans-serif;
+  font-family: 'none;
   font-display: fallback;
 }
 @supports (font-variation-settings: normal) {
